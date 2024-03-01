@@ -1,0 +1,175 @@
+của đạt
+body{
+    margin: 0px;
+}
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+    padding: 40px
+}
+.section {
+    display: block;
+}
+
+/*thuộc tính H2 */
+.section-title {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    padding-bottom: 3px;
+    border-bottom:1.5px solid black;
+    text-transform: uppercase;
+    font-weight:600;
+}
+/* set thẻ H1 name */
+.h1-name {
+    font-size: 32px;
+    color:#0e2452 ;
+    margin: 0px;
+}
+
+/* căn chỉnh phần thông tin */
+#info {
+    position: relative;
+    width: 91%;
+    display: inline-block;
+    margin: 40px
+}
+
+.info-ofme {
+    font-size: 15px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 1px;
+    line-height: 5px;
+}
+
+.image {
+    position: absolute;
+    top: 0px;
+    right:0px;
+    margin: 4px;
+}
+
+.info1 {
+    display: inline-block;
+}
+
+.info2 {
+    position: absolute;
+    left: 150px;
+}
+
+/* set thẻ p của mục tiêu nghề nghiệp */
+.target-job {
+    padding-top: 5px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/* set học vấn*/
+.row-1{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.208);
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 15px ;
+    line-height: 10px;
+}
+.col-1{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+.col-2{
+    display: inline-block;
+}
+
+/* set kinh nghiệm làm việc*/
+.row-2{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.208);
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 15px ;
+    line-height: 10px;
+}
+.col-3{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+.col-4{
+    display: inline-block;
+}
+
+/* set hoạt động + kỹ năng*/
+.row-30, .row-3{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.208);
+    margin-bottom: 10px;
+    font-size: 15px ;
+    line-height: 10px;
+    display: flex;
+}
+.row-3 {
+    display: flex;
+    align-items: center;
+}
+.col-5{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+.col-6{
+    display: inline-block;
+    margin-left: 115px;
+    
+}
+
+.timeline{
+    position: relative;
+    margin: 0px ;
+}
+
+.icon{
+    position: absolute;
+    left: 0%;
+    font-size: 10px;
+}
+.timeline::before{
+    content: "";
+    position: absolute;
+    height: 80%;
+    width: 1px;
+    transform: translateX(-50%);
+    background-color: #b0a4a4;
+    left: 5px;
+    top: 30px;
+}
+
+a{
+    text-decoration: none;
+}
